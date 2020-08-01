@@ -5,9 +5,7 @@ namespace 文字列解析
     internal class MojiretuKaiseki
     {
         private int pointer = 0;
-        private int i = 0;
         private List<Tag> tag = new List<Tag>();
-        private int taglength = 0;
 
         public MojiretuKaiseki(string str)
         {

@@ -6,12 +6,12 @@ namespace 文字列解析
     {
         private static void Main(string[] args)
         {
-            //var str = Console.ReadLine();
+            var str = Console.ReadLine();
             //string str = "aaaaaaaaaaa<String pos=#1:1#></String>bbbbbbbbbbbbb";
             //string str = "<String pos=#1:1# str=#aaaaaaaaaaaa#></String>";
             //string str = "<String pos=#1:1# str=#aaaaaaaaaaaa# col=#1111111#></String>";
 
-            string str = "aaaaaaaaaaa<S str=#aaa#></S>cccccccccccccc<D pos=#bbb#></D>bbbbbbbbbbbb";
+            //string str = "aaaaaaaaaaa<S str=#aaa#></S>cccccccccccccc<D pos=#bbb#></D>bbbbbbbbbbbb";
             //string str = "<String pos=#1:1# str=#aaaaaaaaaaaa#></String>  <Date pos=#2:2#></Date>";
 
             MojiretuKaiseki moji = new MojiretuKaiseki(str);
